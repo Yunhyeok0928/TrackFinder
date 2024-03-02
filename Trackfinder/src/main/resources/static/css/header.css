@@ -1,3 +1,66 @@
-h1 {
 
+
+/* 상단에 고정 시킬 것임 */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+/* 로고 */
+
+.navbar__logo {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+
+}
+
+.navbar__logo a, .navbar__menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.navbar__menu li a {
+    font-weight: 500;
+}
+
+
+
+.navbar__menu {
+
+    display: flex;
+    list-style: none;
+    text-align: center;
+
+
+}
+
+.navbar__menu li {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+
+/* 모바일 화면 크기에 대한 스타일 */
+@media (max-width: 768px) {
+
+    .navbar__logo {
+        padding: 10px;
+    }
+
+    .navbar__menu {
+        display: none;
+    }
 }
