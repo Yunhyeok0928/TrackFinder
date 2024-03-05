@@ -3,8 +3,26 @@
 <body>
 <div class="section1" th:fragment="section1">
 
-    <h1> 안녕하세여 </h1>
-    <h2> 테스트입니다.</h2>
+    <div class="main-text" th:fragment="section1">
+        <!-- 국내 해외 맞춤 여행계획 컨설팅 -->
+        국내 해외 맞춤 여행계획 컨설팅
+    </div>
+
+    <div class="sub-text" th:fragment="section2">
+        <!-- 항공, 숙소, 맛집 관광 -->
+        항공, 숙소, 맛집 관광
+    </div>
+
+    <h1>테스트</h1>
+    <h1>테스트</h1>
+    <h1>테스트</h1>
+
+    <div class="button-container" th:fragment="section3">
+        <!-- 버튼 두개 -->
+        <a href="#" class="custom-button" th:onclick="consultation()">무료컨설팅받기</a>
+        <a href="#" class="custom-button" th:onclick="viewDetails()">자세히 보기</a>
+    </div>
+
 </div>
 </body>
 </html>
