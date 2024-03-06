@@ -8,7 +8,7 @@ body {
 }
 
 .main-text {
-    color: black;
+    color: white;
     font-size: 45px;
     font-weight: bold;
     text-align: left;
@@ -17,7 +17,7 @@ body {
 }
 
 .sub-text {
-    color: black;
+    color: white;
     font-size: 22px;
     text-align: left;
     margin-left: 100px;
@@ -44,7 +44,7 @@ body {
 
 .custom-button2{
     background-color: rgba(0, 133, 255, 0); /* 투명색 */
-    color: black;
+    color: white;
     padding: 10px 20px;
     font-size: 17px;
     text-decoration: none;
@@ -59,7 +59,7 @@ body {
     width: 252px;
     height: 63px;
     background-color: rgba(255, 255, 255, 0.3); /* 약간 불투명한 하얀색 */
-    color: black;
+    color: white;
     margin-left: auto;
     margin-right: 30px;
     border-radius: 12px;
