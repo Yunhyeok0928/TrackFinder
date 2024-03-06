@@ -1,3 +1,79 @@
-h1 {
-    color: blue;
+
+body {
+    background-image: url('images/section1BACK.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
 }
+
+.main-text {
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 230px;
+}
+
+.sub-text {
+    color: black;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.button-container {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.custom-button1{
+    background-color: #0085FF;
+    color: white;
+    padding: 10px 20px;
+
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.custom-button2{
+    background-color: rgba(0, 133, 255, 0); /* 투명색 */
+    color: black;
+    padding: 10px 20px;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.location-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 63px;
+    background-color: rgba(255, 255, 255, 0.3); /* 약간 불투명한 하얀색 */
+    color: black;
+    margin-left: auto;
+    margin-right: 30px;
+    border-radius: 12px;
+    margin-top: 30px; /* 조금 더 아래로 내리기 */
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 15px; /* 아이콘의 너비 */
+    height: 20px; /* 아이콘의 높이 */
+    margin-right: 10px; /* 아이콘과 텍스트 간의 여백 */
+}
+
