@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" th:href="@{/static/css/section1.css}" />
+</head>
 <body>
 <div class="section1" th:fragment="section1">
 
@@ -22,7 +25,7 @@
     <div class="location-name" th:fragment="section1">
         <div class="location-box">
             <div class="icon-container">
-                <img th:src="@{/images/Vector.png}" alt="아이콘" class="icon">
+                <img th:src="@{/css/images/Vector.png}" alt="아이콘" class="icon">
                 <h3>하이헬로 해변, 하와이</h3>
             </div>
         </div>
