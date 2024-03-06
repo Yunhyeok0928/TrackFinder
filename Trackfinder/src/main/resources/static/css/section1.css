@@ -62,7 +62,7 @@
 }
 
 .icon {
-    width: 20px; /* 아이콘의 너비 */
+    width: 15px; /* 아이콘의 너비 */
     height: 20px; /* 아이콘의 높이 */
     margin-right: 10px; /* 아이콘과 텍스트 간의 여백 */
 }
