@@ -19,10 +19,16 @@
     </div>
 
     <!-- 우하단의 위치태그박스 -->
-    <div class="location-box" th:fragment="section1">
-        <div class="location-name">
-            <h3>하이헬로 해변, 하와이</h3>
+    <div class="location-name" th:fragment="section1">
+        <div class="location-box">
+            <div class="icon-container">
+                <img th:src="@{/static/assets/locationICON.png}" alt="아이콘" class="icon">
+                <h3>하이헬로 해변, 하와이</h3>
+            </div>
+        </div>
     </div>
+
+
 
 </div>
 </body>
