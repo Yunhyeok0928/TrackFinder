@@ -58,11 +58,12 @@ body {
     justify-content: center;
     width: 252px;
     height: 63px;
-    background-color: rgba(255, 153, 153, 0.5);
+    background-color: rgba(255, 255, 255, 0.3); /* 약간 불투명한 하얀색 */
     color: black;
     margin-left: auto;
     margin-right: 30px;
     border-radius: 12px;
+    margin-top: 30px; /* 조금 더 아래로 내리기 */
 }
 
 .icon-container {
