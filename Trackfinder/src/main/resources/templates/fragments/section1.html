@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+<<<<<<< Updated upstream
 <head>
     <link rel="stylesheet" th:href="@{/static/css/section1.css}" />
 </head>
+=======
+
+>>>>>>> Stashed changes
 <body>
 <div class="section1" th:fragment="section1">
 
-    <!-- 메인텍스트 -->
-    <div class="main-text" th:fragment="section1">
-        국내 해외 맞춤 여행계획 컨설팅
-    </div>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/section1.css}">
+    <div class="text_box">
+        <!-- 메인텍스트 -->
+        <div class="main-text" th:fragment="section1">
+            국내 해외 맞춤 여행계획 컨설팅
+        </div>
 
-    <div class="sub-text" th:fragment="section1">
-        항공, 숙소, 맛집관광까지 원하는 여행계획은 따라다니에게!
+        <!-- 서브 텍스트 -->
+        <div class="sub-text" th:fragment="section1">
+            항공, 숙소, 맛집관광까지 원하는 여행계획은 따라다니에게!
+        </div>
     </div>
 
     <div class="button-container" th:fragment="section1">
@@ -30,6 +38,7 @@
             </div>
         </div>
     </div>
+
 </div>
 </body>
 </html>

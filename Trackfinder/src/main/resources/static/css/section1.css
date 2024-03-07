@@ -1,10 +1,17 @@
-
-body {
+.section1 {
     background-image: url('images/section1BACK.png');
-    background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
     background-position: center;
     margin: 0;
+    height: 80vh;
+    width: 100%;
+}
+
+.text_box{
+    text-shadow: black;
+    padding-top: 250px ;
+    padding-left: 100px;
 }
 
 .main-text {
@@ -12,23 +19,20 @@ body {
     font-size: 45px;
     font-weight: bold;
     text-align: left;
-    margin-left: 100px;
-    margin-top: 230px;
 }
 
 .sub-text {
     color: white;
     font-size: 22px;
     text-align: left;
-    margin-left: 100px;
-    margin-top: 10px;
+    padding-top: 10px;
 
 }
 
 .button-container {
     text-align: left;
-    margin-top: 50px;
-    margin-left: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
 }
 
 .custom-button1{
@@ -56,14 +60,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 252px;
+    width: 248px;
     height: 63px;
     background-color: rgba(255, 255, 255, 0.3); /* 약간 불투명한 하얀색 */
     color: white;
+<<<<<<< Updated upstream
     margin-left: auto;
     margin-right: 30px;
+=======
+>>>>>>> Stashed changes
     border-radius: 12px;
-    margin-top: 30px; /* 조금 더 아래로 내리기 */
 }
 
 .icon-container {
@@ -77,3 +83,7 @@ body {
     margin-right: 10px; /* 아이콘과 텍스트 간의 여백 */
 }
 
+.location-name{
+    padding-left: 75%;
+    padding-top: 5%;
+}
