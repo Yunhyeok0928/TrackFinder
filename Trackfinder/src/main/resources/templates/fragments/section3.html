@@ -2,8 +2,66 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <body>
+
+<!-- Behance 프로젝트를 임베드하는 iframe -->
+<iframe src="https://www.behance.net/embed/project/134515417?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+
 <div th:fragment="section3">
-    <h1>section3 입니다.</h1>
+    <div class="section3">
+        <div class="content-width">
+            <!--           section3 에 컨텐츠 크기를 정의하는 박스-->
+            <div class="left_top_textBox">
+                <!--           왼쪽 상단 텍스트 박스-->
+                <p>일정을 편리하게 계획해보세요.</p>
+                <h1>미국 5박 6일 일정 정해줘</h1>
+            </div>
+
+            <div class="three-column">
+                <div class="left-box">
+
+                    <div class="title-box">
+                        <p> # <span>항공</span></p>
+                    </div>
+                    <div class="image-box">
+
+                        <img th:src="@{/images/left-box.png}">
+
+                    </div>
+
+                </div>
+
+                <div class="center-box">
+
+                    <div class="title-box">
+                        <p> # <span>액티비티</span></p>
+                    </div>
+                    <div class="image-box">
+                        <img th:src="@{/images/center-box.png}">
+                    </div>
+
+                </div>
+
+                <div class="right-box">
+
+                    <div class="title-box">
+                        <p> # <span>숙소</span></p>
+                    </div>
+                    <div class="image-box">
+                        <img th:src="@{/images/right-box.png}">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Here is your button -->
+            <div class="bottom-button">
+                <button type="button" class="section3_button">나만의 플랜짜기</button>
+            </div>
+
+        </div>
+    </div>
 </div>
 </body>
 </html>
+
